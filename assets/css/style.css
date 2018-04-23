@@ -1,0 +1,116 @@
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-width: 1px solid;
+    height: 80px;
+    margin: auto;
+}
+
+section{
+    background-color: #ffffff;
+    border-color: #dddddd;
+    margin: auto;
+}
+
+footer{
+    background-color: #666666;
+    height: 82px;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+/* Headers for the body of each page */
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    right: 175px;
+    top: 10px;
+    color: teal;
+}
+
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+}
+
+p{
+    line-height: 1.8;
+    padding: 7px 20px 15px 20px;
+}
+
+/* Styling for my name */
+#name{
+    background-color: #4aaaa5;
+    width: 200px;
+    height: 80px;
+    float: left;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 21px;
+}
+
+/* Styling for links in Header*/
+li{
+    float: right;
+    display: inline;
+    position: relative;
+    top: 25px;
+    border-right: 1px solid gray;
+    padding: 5px;
+}
+
+/* ID for Contact in Header*/
+#nb{
+    border-right: none;
+}
+
+/* ID for my image on index.html page*/
+#mypic{
+    float: left;
+    height: 150px;
+    width: 100px;
+    padding: 22px;
+}
+
+#div{
+    clear: both;
+}
+
+#contact-info{
+    position: relative;
+    left: 25px;
+}
+
+button{
+    background-color: #4aaaa5;
+    color: #fff;
+    position: relative;
+    left: 25px;
+    bottom: 10px;
+}
+
+input {
+    width: 99%;
+    padding: 4px;
+}
+
+form{
+    padding: 25px;
+    line-height: 1.8;
+    color: gray;
+}
+
+hr{
+    width: 95%;
+}
+
+/* Message height for input on Contact page */
+#ih{
+    height: 200px;
+}
