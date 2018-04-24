@@ -4,13 +4,12 @@ header{
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     border-width: 1px solid;
     height: 80px;
-    margin: auto;
+    width: 100%;
 }
 
 section{
     background-color: #ffffff;
     border-color: #dddddd;
-    margin: auto;
 }
 
 footer{
@@ -19,6 +18,7 @@ footer{
     text-align: center;
     border-color: teal;
     border: 30px;
+    margin-top: 40px;
 }
 
 h1{
@@ -80,7 +80,7 @@ li{
     padding: 22px;
 }
 
-#div{
+div{
     clear: both;
 }
 
@@ -115,4 +115,24 @@ hr{
 /* Message height for input on Contact page */
 #ih{
     height: 200px;
+}
+
+.pic-top{
+
+    width: 250px;
+    height: 200px;
+    padding: 23px;
+}
+
+.pic-mid{
+    width: 250px;
+    height: 200px;
+    padding: 23px;
+}
+
+.pic-btm{
+    width: 250px;
+    height: 200px;
+    padding: 23px;
+    margin-bottom: 23px;
 }
